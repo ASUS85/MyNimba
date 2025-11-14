@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyNimba</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ================= En-tête ================= -->
+ <header class="pt-4 fixed-top bg-light">
+    <div class="container d-flex justify-content-between align-items-center">
+        
+        <div class="d-flex align-items-center">
+            <img src="./images/Groupe 8674@2x.png" alt="MyNimba Logo" class="logo me-2">
+        </div>
+        
+        <nav id="mainNav" class="d-none d-md-flex gap-4 border-bottom shadow-sm align-items-center">
+            <a href="#accueil" class="nav-link active">Accueil</a>
+            <a href="#apropos" class="nav-link">À propos</a>
+            <a href="#services" class="nav-link">Nos services</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="d-flex align-items-center">
+            
+            <a href="#" class="btn btn-primary rounded-pill px-4 d-none d-md-block">Devis gratuit</a>
+            
+            <button class="navbar-toggler d-md-none ms-3" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </div>
+
+    </div>
+</header>
+<div id="mobileMenuContainer" class="d-md-none bg-light shadow-sm" style="display: none; position: fixed; top: 80px; width: 100%; z-index: 990;">
+    <nav class="nav flex-column py-2">
+        <a href="#accueil" class="nav-link text-center active">Accueil</a>
+        <a href="#apropos" class="nav-link text-center">À propos</a>
+        <a href="#services" class="nav-link text-center">Nos services</a>
+        <a href="#contact" class="nav-link text-center">Contact</a>
+        <a href="#" class="btn btn-primary rounded-pill px-4 mx-3 mt-3">Devis gratuit</a>
+    </nav>
+</div>
+<!-- ================= HERO SECTION ================= -->
+<section id="accueil" class="hero pt-5 mb-0 mt-5">
+  <div class="container py-4">
+    <div class="row align-items-center">
+      
+      <!-- Texte principal -->
+      <div class="col-lg-6 mb-5 mb-lg-0 text-lg-start text-center">
+        <h1 class="fw-bold">
+          <span class="text-primary">Entreprise</span> spécialisée<br>
+          dans le <span class="text-success">nettoyage</span>
+        </h1>
+        <p class="text-muted mt-3 mb-4">
+          Entreprise de nettoyage de premier plan, dédiée à fournir des services 
+          de nettoyage de la plus haute qualité. Forte de plusieurs expériences 
+          dans le domaine, notre équipe de professionnels garantit un service 
+          impeccable pour tous vos besoins.
+        </p>
+        
+        <div class="d-flex flex-column flex-lg-row gap-3 py-2 w-100 align-items-center align-items-lg-start">
+          <a href="#contact" class="btn btn-primary px-4 w-100 w-lg-auto">Contactez-nous</a>
+          <a href="#" class="btn btn-outline-success px-4 w-100 w-lg-auto">Devis gratuit ↗</a>
+        </div>
+      </div>
+
+      <!-- Grille d’image -->
+      <div class="col-lg-6">
+        <div class="image-grid">
+          <div><img src="./images/image home.png" alt="Nettoyage industriel"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- ================= À PROPOS ================= -->
+<section id="apropos" class="py-5 mt-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-center"> 
+      
+      
+      <div class="col-12 col-md-7 col-lg-5 ps-md-5 mt-4 mt-md-0 text-start text-md-start order-md-2 order-1">
+        <h1 class="fw-bold mb-4 ">
+          <span class="text-primary ">À propos</span> de nous
+        </h1>
+        <p class="text-muted">
+          <strong>MyNimba</strong> est une entreprise de nettoyage de premier plan, dédiée à fournir des services de nettoyage de la plus haute qualité. 
+          Forte de plusieurs expériences dans le domaine, notre équipe de <strong>professionnels</strong> hautement qualifiés est engagée à 
+          <strong>maintenir les normes</strong> les plus élevées de propreté et d’hygiène.
+        </p>
+        <p class="text-muted">
+          Nous nous distinguons par notre engagement à offrir des <strong>services personnalisés</strong> 
+          adaptés aux besoins spécifiques de chaque client. Nous comprenons que chaque espace est unique et 
+          nécessite une <strong>approche de nettoyage sur mesure</strong>.
+        </p>
+        <p class="fw-semibold text-muted">
+          Votre satisfaction est notre priorité et notre motivation.
+        </p>
+        
+        <a href="#contact" class="btn btn-primary mt-3 px-4 my-5 d-inline-block">Laissez-nous un message</a>
+      </div>
+
+     
+      <div class="col-12 col-md-5 col-lg-5 image-grid order-md-1 order-2">
+        <div class="apropos-image rounded-4 overflow-hidden shadow-sm mx-auto">
+          <img src="./images/Groupe 8923.png" alt="À propos de nous" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOS SERVICES ================= -->
+<section id="services" class="py-5 mt-5">
+  <div class="container px-3">
+    <div class="row">
+      
+     
+      <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+        <h2 class="fw-bold mb-4 me-3">
+          Nos <span class="text-primary">services</span>
+        </h2>
+        
+        <a href="#" class="btn btn-image mb-4 d-none d-lg-block" style="width: 250px; height: 30px;">
+          <span class="visually-hidden">Demander devis</span>
+        </a>
+      </div>
+      
+      
+      <p class="col-12 text-muted mb-5">
+        Nous nous engageons à vous offrir une expérience de qualité exceptionnelle, reflétant notre dévouement à l’excellence. Notre objectif est de toujours surpasser vos attentes, en fournissant un service qui transcende le standard grâce à notre expertise inégalée.
+      </p>
+
+      
+      <div class="col-12">
+        <div class="row gap-5 justify-content-center ">
+            
+          <!-- Service 1 -->
+          <div class="col-12 col-md-5 service1 d-flex justify-content-center"> 
+            <div class="service-card position-relative overflow-hidden rounded-4 ">
+              <div class="service-overlay d-flex flex-column justify-content-end align-items-start p-4 text-white">
+                <h5 class="fw-bold">Nettoyage chantier</h5>
+                <p class="small mb-0 text-success">À partir de <br><strong class="fs-4"  >1500€</strong></p>
+                <p class="mt-2 text-secondary">
+                  Votre maison mérite l’attention qu’elle mérite. 
+                  Nous offrons des services de nettoyage résidentiel personnalisés 
+                  pour créer un environnement propre et accueillant.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="col-12 col-md-5 service2 d-flex justify-content-center">
+            <div class="service-card position-relative overflow-hidden rounded-4 ">
+              <div class="service-overlay text-start p-4 text-white"> 
+                <h5 class="fw-bold">Manutention</h5>
+                <p class="small mb-0 text-success ">À partir de <br><strong  class="fs-4">1500€</strong></p>
+                <p class="mt-2 text-secondary">
+                  Votre maison mérite l’attention qu’elle mérite. 
+                  Nous offrons des services de nettoyage résidentiel personnalisés 
+                  pour créer un environnement propre et accueillant.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <p class="col-12 text-muted mt-3">Nous sommes passionnément déterminés à vous offrir le summum de la qualité et de l’efficacité, car nous savons que vous méritez le meilleur. Nous nous engageons à vous offrir une expérience de qualité exceptionnelle, reflétant notre dévouement à l’excellence. Notre objectif est de toujours surpasser vos attentes, en fournissant un service qui transcende le standard grâce à notre expertise inégalée.</p>
+        </div>
+      </div>
+      
+      <!-- Carrousel des services -->
+      <div class="col-12">
+        <div class="services-wrapper position-relative">
+          
+          <!-- Flèche gauche  -->
+          <button class="services-arrow left d-none d-md-flex" onclick="scrollServices(-1)">
+            <span class="arrow-icon">
+              <!-- SVG flèche fine gauche -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </button>
+          
+          <!-- Conteneur défilant  -->
+          <div id="services-scroll" class="d-flex overflow-x-scroll snap-x-mandatory" onscroll="updateDots()">
+            
+            
+            <!-- Carte 1 -->
+            <div class="service-card-h mx-3 flex-shrink-0 snap-start">
+              <div class="service-card-bg" style="background-image: url('./images/image007.png');"></div>
+              <div class="service-card-content shadow">
+                <h5 class="fw-bold text-primary mb-1">Nettoyage de fin de chantier</h5>
+                <p class="small mb-0 ">À partir de <br><strong class="fs-4 text-success"  >1500€</strong></p>
+                <p class="small text-muted mb-3">
+                  Notre équipe de fin de chantier, formée et équipée, assure un nettoyage efficace, discret et respectueux de vos locaux, tout en étant à l’écoute de vos besoins.
+                </p>
+                <a href="#" class="btn btn-primary w-100">Demandez un devis gratuit</a>
+              </div>
+            </div>
+            
+            <!-- Carte 2 -->
+            <div class="service-card-h mx-3 flex-shrink-0 snap-start">
+              <div class="service-card-bg" style="background-image: url('./images/image003.png');"></div>
+              <div class="service-card-content shadow">
+                <h5 class="fw-bold text-primary mb-1">Entretien de bureau</h5>
+                <p class="small mb-0 mt-3 ">À partir de <br><strong class="fs-4 text-success"  >1500€</strong></p>
+                <p class="small text-muted mb-3">
+                  Un espace propre favorise un environnement sain et l’efficacité de votre équipe. Nous assurons la propreté de vos bureaux pour un lieu propice à la réussite.
+                </p>
+                <a href="#" class="btn btn-primary w-100">Demandez un devis gratuit</a>
+              </div>
+            </div>
+            
+            <!-- Carte 3 -->
+            <div class="service-card-h mx-3 flex-shrink-0 snap-start">
+              <div class="service-card-bg" style="background-image: url('./images/image004.png');"></div>
+              <div class="service-card-content shadow">
+                <h5 class="fw-bold text-primary mb-1">Nettoyage de propriétés privés</h5>
+                <p class="small mb-0  ">À partir de <br><strong class="fs-4 text-success"  >1500€</strong></p>
+                <p class="small text-muted mb-3">
+                  Votre maison mérite l’attention qu’elle mérite. Nous offrons des services de nettoyage résidentiel personnalisés pour créer un environnement domestique propre et accueillant.
+                </p>
+                <a href="#" class="btn btn-primary w-100">Demandez un devis gratuit</a>
+              </div>
+            </div>
+
+            <!-- Carte 4 -->
+            <div class="service-card-h mx-3 flex-shrink-0 snap-start">
+              <div class="service-card-bg" style="background-image: url('./images/image004.png');"></div>
+              <div class="service-card-content shadow">
+                <h5 class="fw-bold text-primary mb-1">Nettoyage de propriétés privés (2)</h5>
+                <p class="small mb-0 ">À partir de <br><strong class="fs-4 text-success"  >1500€</strong></p>
+                <p class="small text-muted mb-3">
+                  Votre maison mérite l’attention qu’elle mérite. Nous offrons des services de nettoyage résidentiel personnalisés pour créer un environnement domestique propre et accueillant.
+                </p>
+                <a href="#" class="btn btn-primary w-100">Demandez un devis gratuit</a>
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Flèche droite  -->
+          <button class="services-arrow right d-none d-md-flex" onclick="scrollServices(1)">
+            <span class="arrow-icon">
+              <!-- SVG flèche fine droite -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </button> 
+          
+        </div>
+
+        <!-- Indicateurs de position (Points) -->
+        <div class="d-flex justify-content-center mt-4" id="carousel-dots">
+          <!-- Les points seront générés par JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- ===================== SECTION ÉQUIPE DYNAMIQUE ===================== -->
+<section class="team-dynamic-section py-4">
+  <div class="team-content-container p-0">
+    <h2 class="fw-bold text-white mb-3">Faites confiance à une équipe dynamique</span></h2>
+    <p class="text-white">
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+    </p>
+  </div>
+</section>
+
+
+<!-- SECTION AVIS CLIENTS -->
+<section id="client-reviews" class="testimonials-section">
+    <h2 class="section-title">Que disent <span>nos clients ?</span></h2>
+    <p>Écoutez les témoignages de nos clients et clients satisfaits.</p>
+    
+    <!-- Ajout de l'ID pour le ciblage JS -->
+    <div id="testimonials-scroll" class="testimonials-container snap-x-mandatory">
+        <div class="testimonial-card snap-start">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-author">Sophie Darelle</p>
+            <span>4,9 ⭐⭐⭐⭐ </span>
+            <p class="testimonial-text">Le service de nettoyage de fin de chantier a été impeccable. L'équipe a été très professionnelle, efficace, et discrète. Nos locaux étaient parfaitement propres et prêts à l'usage. Je recommande vivement leurs services !</p>
+        </div>
+        <div class="testimonial-card snap-start active">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-author">Felix Jimoh</p>
+            <span style="font-size: small;">4,9 ⭐⭐⭐⭐ </span>
+            <p class="testimonial-text">Depuis que nous avons fait appel à cette entreprise pour l'entretien de nos bureaux, l'environnement de travail est nettement plus agréable. Leur équipe est toujours ponctuelle, discrète, et le travail est irréprochable</p>
+        </div>
+        <div class="testimonial-card snap-start">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-author">Thomas Matt</p>
+            <span>4,9 ⭐⭐⭐⭐ </span>
+            <p class="testimonial-text">Un excellent service de nettoyage résidentiel ! Ils ont su s'adapter à nos besoins spécifiques et ont laissé notre maison impeccable. Je suis très satisfait et je les recommande sans hésitation</p>
+        </div>
+        
+        <!-- autres cartes  -->
+    </div>
+
+    <div id="testimonials-dots" class="indicator-dots testimonial-dots">
+        <!-- Les points seront générés par JavaScript -->
+    </div>
+</section>          
+<!--  SECTION PARTENAIRES -->
+<section id="partners-section" class="partners py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5 fade-in fs-2 " style="font-family:Georgia, 'Times New Roman', Times, serif;">
+            Nos <span class="text-primary">partenaires</span>
+        </h2>
+
+        <div id="partners-scroll" class="d-flex overflow-x-scroll snap-x-mandatory partners-container">
+            <!-- Chaque logo est un item pour le scroll -->
+            <img src="./images/cmmi-logo.png" alt="CMMI" class="partner-logo fade-in delay-1 snap-start">
+            <img src="./images/Amazon_logo.svg.png" alt="Amazon" class="partner-logo fade-in delay-2 snap-start">
+            <img src="./images/cropped-GAUTHIER-logo-A2-1.png" alt="M.Gauthier" class="partner-logo fade-in delay-3 snap-start">
+            <img src="./images/gozem-logo-hq.png" alt="Gozem" class="partner-logo fade-in delay-4 snap-start">
+            <img src="./images/itil.png" alt="ITIL" class="partner-logo fade-in delay-5 snap-start">
+        </div>
+    </div>
+   
+    <div id="partners-dots" class="indicator-dots partner-dots">
+        <!-- Les points seront générés par JavaScript -->
+    </div>
+</section>
+
+
+
+
+
+
+<!-- 🧩 SECTION CONTACT -->
+<section class="contact-section" id="contact">
+    <div class="container-fluid px-0">
+        
+        <div class="row g-0 py-4 d-flex justify-content-center contact-row">
+            
+            <!-- 1. DIV FORMULAIRE  -->
+            <div class="col-12 col-md-5 contact-form-col order-md-1">
+                <div class="contact-form-overlay py-0 text-white">
+                    <form id="contactForm" class="bg-white px-4 rounded-4 shadow-lg row d-flex">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label text-black">Nom *</label>
+                            <input type="text" class="form-control bg-light" id="name" placeholder="Entrez votre nom" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label text-black">Téléphone *</label>
+                            <input type="tel" class="form-control bg-light" id="phone" placeholder="Entrez votre numéro" required>
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="email" class="form-label text-black">Email *</label>
+                            <input type="email" class="form-control bg-light" id="email" placeholder="Entrez votre adresse email" required>
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="subject" class="form-label text-black">Quel est le sujet de votre demande ?</label>
+                            <select id="subject" class="form-select bg-light">
+                                <option>Demande d'information</option>
+                                <option>Service de nettoyage</option>
+                                <option>Devis</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="message" class="form-label text-black">informations Complémentaires</label>
+                            <textarea id="message" class="form-control py-4 bg-light" rows="4" placeholder="Votre message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mx-3 col-md-6 mb-5 h-100">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 2. DIV INFOS CONTACT  -->
+            <div class="col-12 col-md-4 d-flex align-items-end bg-light contact-info-col text-start   order-md-2" style="z-index: 1;">
+                <div class="info-content w-100 py-0">
+                    <h2 class="fw-bold mb-3">Vous pouvez nous contacter via<br><span class="text-primary">nos informations</span></h2>
+                    <p class="mb-4">Veuillez remplir ce formulaire avec vos coordonnées concernant vos demandes et nous répondrons à votre demande dans les plus brefs délais.</p><hr class="mb-5">
+                    
+                    <ul class="list-unstyled info-list">
+                        <li class="mb-3"><img src="./images/Tracé 719.png" alt=""><strong>Envoyer un email :</strong> info@mpminetis.com</li>
+                        <li class="mb-2"><img src="./images/Tracé 720.png" alt=""><strong> Appelez-nous :</strong> 00233 098774466 / 00233 0744982778</li>
+                        <li class="mb-3"><img src="./images/Tracé 721.png" alt=""><strong> Adresse du bureau :</strong> Bloc-D, Olowu, Ikeja, Lagos</li>
+                        <li class="mb-4" ><img src="./images/Tracé 722.png" alt=""><strong> Horaires :</strong> Lundi - Samedi : 10h à 16h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3. DIV IMAGE  -->
+            <div class="col-12 col-md-3 contact-image-col order-md-3 position-relative" style="z-index: 5;">
+                <div class="contact-image-wrapper h-100 d-flex align-items-end justify-content-center">
+                    <!-- L'image est un bloc, centré en bas -->
+                    <img src="./images/femme-afro-tenant-seau-articles-nettoyage.png" alt="Employée" class="contact-image img-fluid">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!--  SECTION DEVIS -->
+<section class="quote-section mt-5 ">
+  <div class="quote-bg-outer">
+    <div class="quote-bg-inner">
+      <div class="quote-content">
+        <h2 class="fw-bold">Demandez un devis gratuit maintenant !</h2>
+        <p>Remplissez un devis pour chiffrer votre projet et connaître le prix de nos prestations de nettoyage.</p>
+        <button class="btn btn-light mt-3 px-4 py-3 ">Devis comparatif ↗</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER  ===================== -->
+<footer class="footer-section">
+  <div class="footer-top">
+    <div class="footer-container">
+
+      <!-- Bloc 1 -->
+      <div class="footer-block card">
+        <img src="./images/Groupe 8674.png" alt="" height="100px" width="130px">
+        <p>Entreprise de nettoyage de premier plan, dédiée à fournir des services de nettoyage de la plus haute qualité.</p>
+      </div>
+
+      <!-- Bloc 2 -->
+      <div class="footer-block card " >
+        <h4>Liens Rapides</h4>
+        <a href="#">Accueil</a>
+        <a href="#">Services</a>
+        <a href="#">Devis</a>
+        <a href="#">Contact</a>
+      </div>
+
+       <!-- Bloc 3 -->
+      <div class="footer-block card">
+        <h4>Infos Contact</h4>
+        <p><img src="./images/Tracé 871.png" alt=""> info@mynimba.com</p>
+        <p><img src="./images/Tracé 872.png" alt=""> +33 0619577464 / +33 0749492178</p>
+        <p><img src="./images/Tracé 873.png" alt=""> 11, Odo-Olowu, Ijeshatedo B/Stop, Surulere</p>
+      </div>
+
+      <!-- Bloc 4 -->
+      <div class="footer-block card footer-social-block">
+        <img src="./images/Groupe 8822.png" alt="Icônes réseaux" class="footer-social-img" height="70px">
+        <div class="footer-btns">
+          <button class="btn  px-4 py-2 "  style="border: 2px rgba(3, 3, 3, 0.707); background-color: rgba(216, 216, 216, 0.132); color: rgb(252, 252, 252);"> <img src="./images/Groupe 8816.png" alt=""> name@domain.com</button>
+          <button class="btn btn-light px-4 py-2 ">Souscrire à la newletter </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ligne horizontale du bas -->
+  <hr class="footer-bottom-divider">
+  <div class="footer-bottom">
+    <p class="footer-left">©2024. MYNIMBA. All Rights Reserved.</p>
+    <p class="footer-right">Politique de confidentialité | Conditions générales</p>
+  </div>
+</footer>
+    
+
+  <!-- ================= Scripts ================= -->
+  <script src="./jquery-3.7.1.js"></script>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+  
+</body>
+</html>
